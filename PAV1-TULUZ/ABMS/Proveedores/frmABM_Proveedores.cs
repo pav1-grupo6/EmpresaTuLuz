@@ -25,7 +25,7 @@ namespace PAV1_TULUZ.ABMS.Proveedores
 
         private void CargarGrilla()
         {
-            string cadenaConexion = "Data Source=-PC\\SQLEXPRESS;Initial Catalog=EmpresaTuLuz;Integrated Security=True";
+            string cadenaConexion = "Data Source=-PC\\SQLEXPRESS;Initial Catalog=TuLuz;Integrated Security=True";
             SqlConnection cn = new SqlConnection(cadenaConexion);
             try
             {
