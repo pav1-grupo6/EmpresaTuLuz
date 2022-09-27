@@ -7,11 +7,11 @@ EMPRESA TU LUZ
 --
 --EJECUTAR EL COMANDO DE CREACIÓN DE LA BASE DE DATOS PRIMERO (SOLO).
 --PARA EJECUTAR SOLO ESTA LINEA SE LA DEBE PINTAR Y OPRIMIR TECLA F5
-CREATE DATABASE EmpresaTuLuz;
+CREATE DATABASE TuLuz;
 -- LUEGO DE EJECUTAR EL COMANDO DE CREACIÓN COMENTAR LA LINEA CON --
 -- COMENTADA LA LÍNEA DE CREACIÓN DE LA BASE DE DATOS, VOLVER A OPRIMIR F5 PARA QUE EJECUTE DESDE USE GDA
 -- SE CREAN LAS TABLAS Y SE POBLARÁN LAS MISMAS 
-USE EmpresaTuLuz;
+USE TuLuz;
 
 --Tabla clientes
 CREATE TABLE clientes 
@@ -150,7 +150,7 @@ INSERT INTO usuarios VALUES('user','user',156465,2,0);
 --Tabla Proveedores
 CREATE TABLE proveedores
 (
-proveedor_id		INT NOT NULL UNIQUE,
+proveedor_id		INT	IDENTITY(1,1) NOT NULL UNIQUE,
 razon_social		VARCHAR(50) NOT NULL,
 mail				VARCHAR(50),
 telefono			VARCHAR(50),
@@ -159,8 +159,8 @@ proveedor_activo	bit NOT NULL,
 CONSTRAINT proveedores_pk PRIMARY KEY(proveedor_id)
 )
 
-INSERT INTO proveedores VALUES(1,'Luminarias S.A.','ventas@luminariasac.com','3514688795',0);
-INSERT INTO proveedores VALUES(2,'Foco S.A.','ventas@focosac.com','3598688795',0);
+INSERT INTO proveedores VALUES('Luminarias S.A.','ventas@luminariasac.com','3514688795',0);
+INSERT INTO proveedores VALUES('Foco S.A.','ventas@focosac.com','3598688795',0);
 
 --Tabla Producto
 CREATE TABLE productos
@@ -213,10 +213,3 @@ INSERT INTO detalles_producto VALUES(1,6,1,100);
 INSERT INTO detalles_producto VALUES(2,3,1,100);
 INSERT INTO detalles_producto VALUES(2,4,2,100);
 INSERT INTO detalles_producto VALUES(2,5,2,100);
-
-
-
-
-
-
-
