@@ -32,11 +32,6 @@
             this.btn_LimpiarCampos = new System.Windows.Forms.Button();
             this.btn_Buscar = new System.Windows.Forms.Button();
             this.grillaProveedores = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.razonSocial = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.activo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.chk_BoxActivos = new System.Windows.Forms.CheckBox();
             this.chk_BoxTodos = new System.Windows.Forms.CheckBox();
             this.txt_RazonSocial = new System.Windows.Forms.TextBox();
@@ -50,6 +45,11 @@
             this.btn_Editar = new System.Windows.Forms.Button();
             this.btn_Borrar = new System.Windows.Forms.Button();
             this.btn_Volver = new System.Windows.Forms.Button();
+            this.columnProveedorId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.razonSocial = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.activo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grillaProveedores)).BeginInit();
             this.SuspendLayout();
@@ -96,7 +96,7 @@
             this.grillaProveedores.AllowUserToDeleteRows = false;
             this.grillaProveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grillaProveedores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn5,
+            this.columnProveedorId,
             this.razonSocial,
             this.mail,
             this.telefono,
@@ -107,42 +107,6 @@
             this.grillaProveedores.RowTemplate.Height = 25;
             this.grillaProveedores.Size = new System.Drawing.Size(484, 226);
             this.grillaProveedores.TabIndex = 4;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "proveedor_id";
-            this.dataGridViewTextBoxColumn5.HeaderText = "id";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Width = 40;
-            // 
-            // razonSocial
-            // 
-            this.razonSocial.DataPropertyName = "razon_social";
-            this.razonSocial.HeaderText = "Razon Social";
-            this.razonSocial.Name = "razonSocial";
-            this.razonSocial.ReadOnly = true;
-            // 
-            // mail
-            // 
-            this.mail.DataPropertyName = "mail";
-            this.mail.HeaderText = "Mail";
-            this.mail.Name = "mail";
-            this.mail.ReadOnly = true;
-            // 
-            // telefono
-            // 
-            this.telefono.DataPropertyName = "telefono";
-            this.telefono.HeaderText = "Telefono";
-            this.telefono.Name = "telefono";
-            this.telefono.ReadOnly = true;
-            // 
-            // activo
-            // 
-            this.activo.DataPropertyName = "proveedor_activo";
-            this.activo.HeaderText = "Activo";
-            this.activo.Name = "activo";
-            this.activo.ReadOnly = true;
             // 
             // chk_BoxActivos
             // 
@@ -231,6 +195,7 @@
             this.btn_Editar.TabIndex = 2;
             this.btn_Editar.Text = "Editar";
             this.btn_Editar.UseVisualStyleBackColor = true;
+            this.btn_Editar.Click += new System.EventHandler(this.btn_Editar_Click);
             // 
             // btn_Borrar
             // 
@@ -252,6 +217,42 @@
             this.btn_Volver.Text = "Volver";
             this.btn_Volver.UseVisualStyleBackColor = true;
             this.btn_Volver.Click += new System.EventHandler(this.btn_Volver_Click);
+            // 
+            // columnProveedorId
+            // 
+            this.columnProveedorId.DataPropertyName = "proveedor_id";
+            this.columnProveedorId.HeaderText = "id";
+            this.columnProveedorId.Name = "columnProveedorId";
+            this.columnProveedorId.ReadOnly = true;
+            this.columnProveedorId.Width = 40;
+            // 
+            // razonSocial
+            // 
+            this.razonSocial.DataPropertyName = "razon_social";
+            this.razonSocial.HeaderText = "Razon Social";
+            this.razonSocial.Name = "razonSocial";
+            this.razonSocial.ReadOnly = true;
+            // 
+            // mail
+            // 
+            this.mail.DataPropertyName = "mail";
+            this.mail.HeaderText = "Mail";
+            this.mail.Name = "mail";
+            this.mail.ReadOnly = true;
+            // 
+            // telefono
+            // 
+            this.telefono.DataPropertyName = "telefono";
+            this.telefono.HeaderText = "Telefono";
+            this.telefono.Name = "telefono";
+            this.telefono.ReadOnly = true;
+            // 
+            // activo
+            // 
+            this.activo.DataPropertyName = "proveedor_activo";
+            this.activo.HeaderText = "Activo";
+            this.activo.Name = "activo";
+            this.activo.ReadOnly = true;
             // 
             // frmABM_Proveedores
             // 
@@ -299,5 +300,6 @@
         private Button btn_Editar;
         private Button btn_Borrar;
         private Button btn_Volver;
+        private DataGridViewTextBoxColumn columnProveedorId;
     }
 }

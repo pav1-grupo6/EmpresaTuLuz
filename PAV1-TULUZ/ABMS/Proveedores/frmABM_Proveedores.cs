@@ -25,7 +25,8 @@ namespace PAV1_TULUZ.ABMS.Proveedores
 
         private void CargarGrilla()
         {
-            string cadenaConexion = "Data Source=-PC\\SQLEXPRESS;Initial Catalog=TuLuz;Integrated Security=True";
+    
+            string cadenaConexion = "Data Source=DESKTOP-74FLCP1\\SQLEXPRESS;Initial Catalog=TuLuz;Integrated Security=True";
             SqlConnection cn = new SqlConnection(cadenaConexion);
             try
             {
@@ -82,6 +83,18 @@ namespace PAV1_TULUZ.ABMS.Proveedores
         {
             frmAlta_Proveedores alta_proveedor = new frmAlta_Proveedores();
             alta_proveedor.Show();
+        }
+
+        private void btn_Editar_Click(object sender, EventArgs e)
+        {
+            if (grillaProveedores.CurrentRow != null)
+            {
+                frmModificacion_Proveedores frmModificacion_Proveedores = new frmModificacion_Proveedores();
+                int idProveedor = int.Parse(grillaProveedores.CurrentRow.Cells["columnProveedorId"].Value.ToString());
+                frmModificacion_Proveedores.InicializarModificarProveedor(idProveedor);
+                frmModificacion_Proveedores.ShowDialog();
+            }
+            CargarGrilla();
         }
     }
 }

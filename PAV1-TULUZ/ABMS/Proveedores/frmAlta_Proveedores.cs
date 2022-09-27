@@ -84,7 +84,7 @@ namespace PAV1_TULUZ.ABMS.Proveedores
 
         private bool InsertarProveedor(string razon_social, string mail, string telefono, bool activo)
         {
-            string cadenaConexion = "Data Source=-PC\\SQLEXPRESS;Initial Catalog=TuLuz;Integrated Security=True";
+            string cadenaConexion = "Data Source=DESKTOP-74FLCP1\\SQLEXPRESS;Initial Catalog=TuLuz;Integrated Security=True";
             SqlConnection cn = new SqlConnection(cadenaConexion);
             bool resultado = false;
             try

@@ -56,7 +56,7 @@ namespace PAV1_TULUZ
 
         private bool ValidarUsuario(string nombreUsuario, string password)
         {
-            string cadenaConexion = "Data Source=-PC\\SQLEXPRESS;Initial Catalog=TuLuz;Integrated Security=True";
+            string cadenaConexion = "Data Source=DESKTOP-74FLCP1\\SQLEXPRESS;Initial Catalog=TuLuz;Integrated Security=True";
             SqlConnection cn = new SqlConnection(cadenaConexion);
             try
             {
