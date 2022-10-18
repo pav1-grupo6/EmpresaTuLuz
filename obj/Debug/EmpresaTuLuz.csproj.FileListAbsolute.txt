@@ -1,0 +1,29 @@
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\bin\Debug\EmpresaTuLuz.exe.config
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.csprojResolveAssemblyReference.cache
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.LoginForm.resources
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.Properties.Resources.resources
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.csproj.GenerateResource.Cache
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\bin\Debug\EmpresaTuLuz.exe
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\bin\Debug\EmpresaTuLuz.pdb
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.exe
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.pdb
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.PrincipalForm.resources
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.RegistrarCliente.resources
+c:\users\cris\documents\visual studio 2015\Projects\EmpresaTuLuz\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.RegistrarEmpleado.resources
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.exe
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.pdb
+C:\PAV1\TP1\EmpresaTuLuz\bin\Debug\EmpresaTuLuz.exe.config
+C:\PAV1\TP1\EmpresaTuLuz\bin\Debug\EmpresaTuLuz.exe
+C:\PAV1\TP1\EmpresaTuLuz\bin\Debug\EmpresaTuLuz.pdb
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.csproj.AssemblyReference.cache
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.csproj.SuggestedBindingRedirects.cache
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.LoginForm.resources
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.PrincipalForm.resources
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.Properties.Resources.resources
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.RegistrarCliente.resources
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.RegistrarEmpleado.resources
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.Empleados.resources
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.csproj.GenerateResource.cache
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.csproj.CoreCompileInputs.cache
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.Logica.ABMC_Cotizaciones.resources
+C:\PAV1\TP1\EmpresaTuLuz\obj\Debug\EmpresaTuLuz.Logica.AltaCotizaciones.resources
